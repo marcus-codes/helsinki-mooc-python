@@ -7,8 +7,8 @@ The following program contains several syntactic errors. Please fix the program 
 as specified by the examples below.
 """
 
-number = input("Please type in a number: ")
-if number > 100
+number = int(input("Please type in a number: "))
+if number > 100:
     print("The number was greater than one hundred")
     number - 100
     print("Now its value has decreased by one hundred")
