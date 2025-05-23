@@ -3,11 +3,27 @@ Helsinki MOOC - Part 2: Simple Loops
 Exercise: Shall we continue
 
 Task:
-[Copy-paste the exact task description from the MOOC here]
+Let's create a program along the lines of the example above. This program should print out the message "hi" and then ask "Shall we continue?" until the user inputs "no". Then the program should print out "okay then" and finish. Please have a look at the example below.
 
-Example:
-[Include example inputs/outputs if provided]
+Sample output
+hi
+Shall we continue? yes
+hi
+Shall we continue? oui
+hi
+Shall we continue? jawohl
+hi
+Shall we continue? no
+okay then
 """
 
-# Your solution here
+# Write your solution here
+while True:
+    print("hi")
+    message = input("Shall we continue? ")
+
+    if message == "no":
+        break
+
+print("okay then")
 
